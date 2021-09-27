@@ -7,9 +7,9 @@ int FeedChildren(vector<int>& g, vector<int>& s) {
 	int num = 0;
 	sort(g.begin(), g.end());
 	sort(s.begin(), s.end());
-	int index = s.size() -1;
+	int index = s.size() - 1;
 	for (int i = g.size() - 1; i >= 0; i--) {
-		if (s[index] >= g[i] && index>=0){
+		if (s[index] >= g[i] && index >= 0) {
 			num += 1;
 			index--;
 		}

@@ -31,6 +31,6 @@ int main()
     vector<int> arr_b = { 4, 6, 1, 6, 8, 23, 9, 0, 4, 3, 1 };
 
     int result = A.search(arr_b, 8);
-    cout<<result;
+    cout << result;
     return 0;
 }
